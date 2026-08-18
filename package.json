@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "mock-api",
   "version": "1.0.0",
   "description": "API Fake com json-server e Swagger UI",
@@ -14,4 +15,22 @@
   "devDependencies": {
     "nodemon": "^3.1.0"
   }
+=======
+  "name": "treinamento",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "expo": "~57.0.14",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-native": "0.86.2"
+  },
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "private": true
+>>>>>>> 51f7a40 (Initial commit)
 }
