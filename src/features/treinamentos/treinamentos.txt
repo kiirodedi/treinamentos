@@ -1,0 +1,22 @@
+Feature: treinamentos
+
+Responsabilidade:
+Permitir que o usuário consulte os treinamentos disponíveis
+e visualize seus detalhes.
+
+Possíveis telas:
+- Lista de treinamentos
+- Detalhes do treinamento
+
+Possíveis dados:
+- título
+- descrição
+- carga horária
+- status
+- data de início
+- data de término
+
+Endpoints:
+GET /api/treinamentos
+GET /api/treinamentos/{id}
+GET /api/treinamentos/{id}/completo

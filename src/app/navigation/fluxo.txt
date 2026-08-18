@@ -1,0 +1,22 @@
+                 Aplicativo
+                     │
+          ┌──────────┴─────────┐
+          │                    │
+       Usuário               Login
+    autenticado                │
+          │                    │
+          └──────────┬─────────┘
+                     │
+                 Dashboard
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+  Certificados  Treinamentos     Perfil
+       │             │             │
+      Lista         Lista        Detalhes
+       │             │             │
+    Opções        Detalhes   Vizualizar / Baixar
+       │
+┌─────────────┐
+│             │
+Vizualizar    Baixar

@@ -1,0 +1,45 @@
+Feature: certificado
+
+Responsabilidade:
+Comprovar que um usuário concluiu um treinamento.
+
+Possíveis telas:
+- Perfil
+- Certificado
+- Imprimir certificado
+- Baixar certificado
+
+Possíveis dados:
+- Nome
+- CPF do funcionário
+- Nome do treinador
+- CPF do treinador
+- Data de conclusão
+- Quantidade de horas
+- Nome do treinamento
+
+Endpoints:
+GET /api/certificado
+GET /api/certificado/{id}
+GET /api/certificado/{id}/salvar
+
+                 Aplicativo
+                     │
+          ┌──────────┴──────────┐
+          │                     │
+       Usuário                 Login
+      autenticado                │
+          │                      │
+          └──────────┬───────────┘
+                     │
+                 Dashboard
+                     │
+       ┌─────────────┼─────────────┐
+       │             │             │
+ Treinamentos   Certificados     Perfil
+       │
+       ↓
+Lista
+       │
+       ↓
+Detalhes

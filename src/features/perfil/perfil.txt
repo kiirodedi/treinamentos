@@ -1,0 +1,26 @@
+Feature: perfil
+
+Responsabilidade:
+Permitir que o usuário consulte seu proprio perfil, suas conclusões, certificados, etc.
+Além de permitir editar suas informações e fazer exclusão.
+
+Possíveis telas:
+- Perfil
+- Editar dados
+- configurações
+
+Possíveis dados:
+- Nome
+- CPF
+- Email
+- Data de nascimento
+- Data de inserção
+- histórico de treinamentos
+- Função
+
+Endpoints:
+GET /api/perfil
+GET /api/perfil/{id}
+GET /api/perfil/{id}/editar
+GET /api/perfil/{id}/excluir
+GET /api/perfil/{id}/configuracoes
